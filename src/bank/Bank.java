@@ -53,7 +53,7 @@ public class Bank {
         scanner.close();
 
 
-        UserAccount newAccount = new UserAccount(name,accountNumber, pin, balance);
+        UserAccount newAccount = new UserAccount(name,accountNumber, balance);
         userAccounts.add(newAccount);
         System.out.println("Akun pengguna berhasil dibuat.");
     }

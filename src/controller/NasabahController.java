@@ -7,6 +7,6 @@ public class NasabahController extends BankController {
 
 
 
-    public NasabahModel nasabahLogin
+
 
 }

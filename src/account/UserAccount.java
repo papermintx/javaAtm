@@ -9,10 +9,11 @@ import java.util.List;
 
 public class UserAccount extends Account {
 
+    private static final int pin = 123;
     private List<Transaction> myHistoryTransaction;
 
-    public UserAccount(String name, String accountNumber, String pin, double balance) {
-        super(name,accountNumber, pin, balance);
+    public UserAccount(String name, String accountNumber, double balance) {
+        super(name,accountNumber, String.valueOf(pin), balance);
     }
 
     public List<Transaction> getTransactions() {
